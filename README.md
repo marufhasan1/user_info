@@ -20,9 +20,9 @@ If you want to get the client IP Address Use this Method This Method will return
 
 **Example**
 ```php
-	require('user_info.php');
-	$c_info = new Users_info;
-	echo $ttt->c_ip();
+require('user_info.php');
+$c_info = new Users_info;
+echo $ttt->c_ip();
 ```
 
 
@@ -31,7 +31,7 @@ If you want to get the client Operating System Name Use this Method This Method 
 
 **Example**
 ```php
-	require('user_info.php');
-	$c_info = new Users_info;
-	echo $ttt->c_OS();
+require('user_info.php');
+$c_info = new Users_info;
+echo $ttt->c_OS();
 ```
