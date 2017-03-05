@@ -14,3 +14,24 @@ $c_info = new Users_info;
 * [c_OS()](#c_OS)
 * [c_Browser()](#c_Browser)
 * [c_Device()](#c_Device)
+
+### `c_ip()`
+If you want to get the client IP Address Use this Method This Method will return Client IP Address
+
+**Example**
+```php
+	require('user_info.php');
+	$c_info = new Users_info;
+	echo $ttt->c_ip();
+```
+
+
+### `c_OS()`
+If you want to get the client Operating System Name Use this Method This Method will return Client Operating System
+
+**Example**
+```php
+	require('user_info.php');
+	$c_info = new Users_info;
+	echo $ttt->c_OS();
+```
