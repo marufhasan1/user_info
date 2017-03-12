@@ -22,7 +22,7 @@ If you want to get the client IP Address, Use this Method, This Method will retu
 ```php
 require('user_info.php');
 $c_info = new Users_info;
-echo $ttt->c_ip();
+echo $c_info->c_ip();
 ```
 
 
@@ -33,7 +33,7 @@ If you want to get the client Operating System Name, Use this Method, This Metho
 ```php
 require('user_info.php');
 $c_info = new Users_info;
-echo $ttt->c_OS();
+echo $c_info->c_OS();
 ```
 
 
@@ -44,7 +44,7 @@ If you want to get the client's Browser Name, Use this Method, This Method will 
 ```php
 require('user_info.php');
 $c_info = new Users_info;
-echo $ttt->c_Browser();
+echo $c_info->c_Browser();
 ```
 
 ### `c_Device()`
