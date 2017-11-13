@@ -25,7 +25,7 @@ echo UserInfo::get_ip()
 ```
 
 
-### `c_OS()`
+### `get_OS()`
 If you want to get the client Operating System Name, Use this Method, This Method will return Client Operating System
 
 **Example**
@@ -35,7 +35,7 @@ echo UserInfo::get_os();
 ```
 
 
-### `c_Browser()`
+### `get_Browser()`
 If you want to get the client's Browser Name, Use this Method, This Method will return Client's Browser Name
 
 **Example**
@@ -44,7 +44,7 @@ require('user_info.php');
 echo UserInfo::get_browser();
 ```
 
-### `c_Device()`
+### `get_Device()`
 If you want to get the client's Device Type Then Use this Method, This Method will return Client's Device Type Name Such as 
 Mobile,Tablet,Computer
 
