@@ -1,3 +1,4 @@
+[![GitHub version](https://badge.fury.io/gh/marufhasan1%2Fuser_info.svg)](https://badge.fury.io/gh/marufhasan1%2Fuser_info)
 # User's Information
 Getting The Client Information (Client's IP Address,Operating System,Browser Name,Device Type) in PHP 
 
